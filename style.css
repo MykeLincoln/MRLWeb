@@ -1,0 +1,21 @@
+body {
+	background-image:url("images/vintageBG.jpg");
+	background-size: cover;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   margin-top:100px;
+   border-bottom: solid;
+}
+.navbar .navbar-nav .navbar-brand {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-brand img {
+	height:120px;
+	width:160px;
+}
