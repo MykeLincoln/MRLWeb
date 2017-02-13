@@ -8,14 +8,21 @@ body {
    background: transparent;
    border-color: transparent;
    margin-top:100px;
-   border-bottom: solid;
 }
 .navbar .navbar-nav .navbar-brand {
+
     display: inline-block;
     float: none;
 }
 
-.navbar-brand img {
-	height:120px;
-	width:160px;
+.logo{
+	height:200px;
+	width:300px;
+}
+
+.navbar ul {
+  border-bottom: solid;
+}
+.centered{
+  text-align: center;
 }
