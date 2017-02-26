@@ -3,26 +3,97 @@ body {
 	background-size: cover;
 }
 
+
+@font-face{
+  font-family:headerFont;
+  src:url(FHAMTRNCV.ttf);
+}
+
+@font-face{
+  font-family:linkFont;
+  src:url(antique_book_cover.otf);
+}
+
+ a > h1{
+  text-align: center;
+  font-family:headerFont;
+  color:black;
+  font-size: 62px
+}
+
+h2{
+  font-family: linkFont;
+  font-size: 45px;
+}
+
 .navbar {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
-   margin-top:100px;
+   margin-top:1px;
 }
-.navbar .navbar-nav .navbar-brand {
+
+   @media (min-width:768px) { 
+ .navbar > .container {
+    text-align: center;
+ }
+
+.navbar .navbar-nav{
+
+    display: inline-block;
+    float: none;
+    clear:none;
+}
+
+
+.navbar-brand{
 
     display: inline-block;
     float: none;
 }
 
+.navbar .navbar-nav > li{
+
+    display: inline-block;
+    float: none;
+    font-family:linkFont;
+    font-size: 30px;
+}
+
+.navbar .navbar-nav > li li{
+
+    display: inline-block;
+    float: none;
+    font-family:headerFont;
+}
+
+
+.navbar-header{
+display: inline-block;
+    float: none;
+}
+
 .logo{
 	height:200px;
-	width:300px;
+	width:300px
+  margin-bottom:-25px;
+  margin-top: -25px; 
 }
 
 .navbar ul {
   border-bottom: solid;
+  margin: auto;
 }
 .centered{
   text-align: center;
 }
+
+
+
+li:hover 
+{
+  background-color: none;
+  color:red;
+}
+
+li:before {content:'\2606';}
